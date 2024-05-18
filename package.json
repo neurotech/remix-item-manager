@@ -1,0 +1,19 @@
+{
+  "name": "remix-item-manager",
+  "version": "0.0.1",
+  "description": "It's an item manager for MoP Remix.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurotech/RemixItemManager.git"
+  },
+  "scripts": {
+    "release:major": "npm version major && git push --follow-tags",
+    "release:minor": "npm version minor && git push --follow-tags",
+    "release:patch": "npm version patch && git push --follow-tags"
+  },
+  "keywords": [
+    "wow"
+  ],
+  "author": "Tim Douglas",
+  "license": "MIT"
+}
